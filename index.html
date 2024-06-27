@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>갤러리 웹페이지</title>
+ <link href="css/reset.css" rel="stylesheet">
+ <link href="css/jquery.fancybox.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+ <script src="js/jquery-3.7.1.js"></script>
+ <script src="js/isotope.pkgd.min.js"></script>
+ <script src="js/jquery.fancybox.js"></script>
+ <script src="js/script.js" defer></script>
+ <link href="favicon.ico" rel="shortcut icon">
+ <script src="https://kit.fontawesome.com/5a7895e034.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div class="container"><!--flex-->
+  <header class="header"><!--20% * 100vh,배경색,-->
+   <div class="title">
+    <div class="logo">
+     KUJAE JOB ACADEMY
+    </div>
+    <div class="line"></div>
+   </div><!-- title end-->
+   <ul class="sns">
+    <li><a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a></li> 
+    <li><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></li> 
+    <li><a href="#"><i class="fa-solid fa-envelope"></i>E-mail</a></li>
+   </ul>
+  </header>
+  <div class="contents"><!-- 가로사이즈, 배경색,-->
+   <ul class="btns">
+    <li class="active" data-filter="*">ALL</li><!--100px*26px-->
+    <li data-filter=".odd">ODD</li>
+    <li data-filter=".even">EVEN</li>
+   </ul>
+   <div class="box_wrap">
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p1.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p1.jpg" alt="">
+       <p>Html.</p>
+       <p>Html 언어 교육 과정.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 1 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p2.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p2.jpg" alt="">
+       <p>Traning all Subject introduce.</p>
+       <p>국제직업학교에서 모든 수강 과목 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 2 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p3.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p3.jpg" alt="">
+       <p>Panting.</p>
+       <p>컴퓨터 그림 관련된 수업 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 3 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p4.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p4.jpg" alt="">
+       <p>Photoshop.</p>
+       <p>포토샵 관련된 수업 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 4 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p5.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p5.jpg" alt="">
+       <p>Result by Photoshop.</p>
+       <p>포토샵 결과물 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 5 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p6.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p6.jpg" alt="">
+       <p>Security Traning introduce.</p>
+       <p>보안 훈련 과정 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 6 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p7.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p7.jpg" alt="">
+       <p>Homepage Web Design.</p>
+       <p>홈페이지 웹디자인 훈련 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 7 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p8.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p8.jpg" alt="">
+       <p>Portfolio.</p>
+       <p>포트 폴리오 대한 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 8 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p9.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p9.jpg" alt="">
+       <p>Web server.</p>
+       <p>웹서버 관련된 훈련 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 9 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p10.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p10.jpg" alt="">
+       <p>real-time communication.</p>
+       <p>실시간 대화로 통한 상담 .</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 10 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p11.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p11.jpg" alt="">
+       <p>Make the Shopping web site.</p>
+       <p>쇼핑몰 제작 과정 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 11 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p12.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p12.jpg" alt="">
+       <p>Study room service.</p>
+       <p>학생들을 위한 컴퓨터가 있는 공부방.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 12 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p13.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p13.jpg" alt="">
+       <p>Lecturer and Student communication.</p>
+       <p>강사와 학생과 대화 및 상담.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 13 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p14.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p14.jpg" alt="">
+       <p>illustration Design.</p>
+       <p>일러스트 수업에 대한 설명.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 14 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p15.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p15.jpg" alt="">
+       <p>Classroom.</p>
+       <p>국제 학원 컴퓨터 교실 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 15 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p16.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p16.jpg" alt="">
+       <p>Question.</p>
+       <p>학원에 대한 질문 사항.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 16 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p17.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p17.jpg" alt="">
+       <p>Lounge Service.</p>
+       <p>카페 스타일로 고급 휴개실 서비스 제공.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 17 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p18.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p18.jpg" alt="">
+       <p>Pay.</p>
+       <p>훈련 비용 및 지원 소개.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 18 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p19.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p19.jpg" alt="">
+       <p>Food service.</p>
+       <p>음식 제공에 대한 설명.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 19 end-->
+    <div class="box odd">
+     <div class="inner">
+      <a href="imgs/p20.jpg" class="fancybox" rel="odd">
+       <img src="imgs/p20.jpg" alt="">
+       <p>Snack service.</p>
+       <p>간식 제공에 대한 설명.</p>
+      </a>
+     </div><!--inner(100%*100%,배경희색,패딩,모서리둥글게) end-->
+    </div><!-- box 20 end-->
+
+
+   </div><!-- box wrap end-->
+  </div><!-- contents end-->
+ </div><!-- container end -->
+</body>
+</html> 
+
